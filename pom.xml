@@ -41,6 +41,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+			<exclusions>
+				<!-- Excluding for conflict with JUnit Jupiter which is under a different 
+					groupId/artifactId -->
+				<exclusion>
+					<groupId>junit</groupId>
+					<artifactId>junit</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 
@@ -59,11 +67,11 @@
 	</dependencyManagement>
 
 	<pluginRepositories>
-        <pluginRepository>
-            <id>SmartBearPluginRepository</id>
-            <url>http://www.soapui.org/repository/maven2/</url>
-        </pluginRepository>
-    </pluginRepositories>
+		<pluginRepository>
+			<id>SmartBearPluginRepository</id>
+			<url>http://www.soapui.org/repository/maven2/</url>
+		</pluginRepository>
+	</pluginRepositories>
 	<build>
 		<plugins>
 			<plugin>
@@ -71,31 +79,31 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-                <groupId>com.smartbear.soapui</groupId>
-                <artifactId>soapui-pro-maven-plugin</artifactId>
-                <version>4.6.1</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.6</version>
-                    </dependency>
-                </dependencies>    
-                <executions>
-                    <execution>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>test</goal>
-                        </goals>
-                        <configuration>
-                            <projectFile>bipro-ws-mock-service-soapui-project.xml</projectFile>
-                            <projectProperties>
-                                <value>message=Hello World!</value>
-                            </projectProperties>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+				<groupId>com.smartbear.soapui</groupId>
+				<artifactId>soapui-pro-maven-plugin</artifactId>
+				<version>4.6.1</version>
+				<dependencies>
+					<dependency>
+						<groupId>mysql</groupId>
+						<artifactId>mysql-connector-java</artifactId>
+						<version>5.1.6</version>
+					</dependency>
+				</dependencies>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<configuration>
+							<projectFile>bipro-ws-mock-service-soapui-project.xml</projectFile>
+							<projectProperties>
+								<value>message=Hello World!</value>
+							</projectProperties>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 

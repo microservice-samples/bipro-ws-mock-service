@@ -1,7 +1,7 @@
 Status: FAILED
-Time Taken: 8149
+Time Taken: 8098
 Size: 0
-Timestamp: Sun Dec 16 20:28:46 CET 2018
+Timestamp: Sun Dec 16 21:01:14 CET 2018
 TestStep: listShipments
 
 ----------------- Messages ------------------------------
@@ -30,7 +30,7 @@ Encoding: UTF-8
             \r
             <!--Optional:-->
             \r
-            <nac:ConsumerID>?</nac:ConsumerID>
+            <nac:ConsumerID>1000</nac:ConsumerID>
             \r
             <!--Optional:-->
             \r
