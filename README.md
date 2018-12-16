@@ -30,4 +30,6 @@ mvn com.smartbear.soapui:soapui-maven-plugin:4.6.1:tool
 
 * mock : Runs the specified and configured code-generation tool. Internally invokes the SoapUIMockServiceRunner class as described there.
 
-# Quelle: https://www.soapui.org/test-automation/maven/maven-2-x.html
+# Quelle: 
+# https://www.soapui.org/test-automation/maven/maven-2-x.html
+# https://blog.doubleslash.de/continuous-testing-testautomatisierung-mit-soapui-und-jenkins/
