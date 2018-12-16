@@ -1,0 +1,46 @@
+2018-12-16 19:17:15,624 WARN  [SoapUI] Missing folder [C:\Users\Public\Projekte\oxygen-workspace-q4-2017\bipro-ws-mock-service\.\ext] for external libraries
+2018-12-16 19:17:15,833 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Admin\soapui-settings.xml]
+2018-12-16 19:17:16,934 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Public/Projekte/oxygen-workspace-q4-2017/bipro-ws-mock-service/bipro-ws-mock-service-soapui-project.xml]
+2018-12-16 19:17:16,934 WARN  [WsdlProject] Project 'TransferService_spring_boot' is from a newer version (5.3.0) of SoapUI than this (4.6.1) and parts of it may be incompatible or incorrect. Saving this project with this version of SoapUI may cause it to function differently.
+2018-12-16 19:17:17,645 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [TransferService_spring_boot]
+2018-12-16 19:17:17,647 INFO  [SoapUITestCaseRunner] Running Project [TransferService_spring_boot], runType = SEQUENTIAL
+2018-12-16 19:17:17,660 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [listShipments TestCase]
+2018-12-16 19:17:17,669 INFO  [SoapUITestCaseRunner] running step [getKategorieDerLieferung]
+2018-12-16 19:17:18,117 INFO  [log] ### kategorieDerLieferungPropTransfer: 10000 
+2018-12-16 19:17:18,128 INFO  [SoapUITestCaseRunner] running step [Kategorie_Transfer]
+2018-12-16 19:17:18,134 INFO  [SoapUITestCaseRunner] running step [listShipments]
+2018-12-16 19:17:18,268 ERROR [AbstractTestRunner] Exception during Test Execution
+java.lang.NoClassDefFoundError: junit/framework/ComparisonFailure
+	at com.eviware.soapui.impl.wsdl.support.CompressionSupport.GZIPDecompress(CompressionSupport.java:114)
+	at com.eviware.soapui.impl.wsdl.support.CompressionSupport.decompress(CompressionSupport.java:75)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:316)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.methods.ExtendedPostMethod.getResponseBody(ExtendedPostMethod.java:128)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.BaseHttpResponse.<init>(BaseHttpResponse.java:90)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.SinglePartHttpResponse.<init>(SinglePartHttpResponse.java:42)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.attachments.WsdlSinglePartHttpResponse.<init>(WsdlSinglePartHttpResponse.java:36)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.wsdlRequest(HttpPackagingResponseFilter.java:71)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.afterAbstractHttpResponse(HttpPackagingResponseFilter.java:48)
+	at com.eviware.soapui.impl.wsdl.submit.filters.AbstractRequestFilter.afterRequest(AbstractRequestFilter.java:64)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:290)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:123)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:76)
+	at com.eviware.soapui.impl.wsdl.WsdlRequest.submit(WsdlRequest.java:238)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:417)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:48)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:148)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:43)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:135)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: junit.framework.ComparisonFailure
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	... 25 more
+2018-12-16 19:17:18,270 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [listShipments TestCase], time taken: 453ms, status: FAILED
+2018-12-16 19:17:18,271 INFO  [SoapUITestCaseRunner] Project [TransferService_spring_boot] finished with status [FAILED] in 619ms
