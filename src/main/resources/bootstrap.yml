@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bipro-ws-mock-service
+  cloud:
+    config:
+      server:
+      uri: C:\Users\Public\Projekte\oxygen-workspace-q4-2017\bipro-ws-config-server
