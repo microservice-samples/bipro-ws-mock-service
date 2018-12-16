@@ -1,0 +1,12 @@
+Status: FAILED
+Time Taken: 78
+Size: 0
+Timestamp: Sun Dec 16 19:38:59 CET 2018
+TestStep: LoopIndexByListShipmentsTransferIdList
+Error:java.lang.RuntimeException: net.sf.saxon.trans.XPathException: XPath syntax error at char 35 on line 2 in {...pmentsResponse//tran:Liefer...}:
+    Prefix tran has not been declared
+
+----------------- Messages ------------------------------
+java.lang.RuntimeException: net.sf.saxon.trans.XPathException: XPath syntax error at char 35 on line 2 in {...pmentsResponse//tran:Liefer...}:
+    Prefix tran has not been declared
+error at line: 7

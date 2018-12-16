@@ -1,31 +1,51 @@
-2018-12-16 19:17:15,624 WARN  [SoapUI] Missing folder [C:\Users\Public\Projekte\oxygen-workspace-q4-2017\bipro-ws-mock-service\.\ext] for external libraries
-2018-12-16 19:17:15,833 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Admin\soapui-settings.xml]
-2018-12-16 19:17:16,934 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Public/Projekte/oxygen-workspace-q4-2017/bipro-ws-mock-service/bipro-ws-mock-service-soapui-project.xml]
-2018-12-16 19:17:16,934 WARN  [WsdlProject] Project 'TransferService_spring_boot' is from a newer version (5.3.0) of SoapUI than this (4.6.1) and parts of it may be incompatible or incorrect. Saving this project with this version of SoapUI may cause it to function differently.
-2018-12-16 19:17:17,645 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [TransferService_spring_boot]
-2018-12-16 19:17:17,647 INFO  [SoapUITestCaseRunner] Running Project [TransferService_spring_boot], runType = SEQUENTIAL
-2018-12-16 19:17:17,660 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [listShipments TestCase]
-2018-12-16 19:17:17,669 INFO  [SoapUITestCaseRunner] running step [getKategorieDerLieferung]
-2018-12-16 19:17:18,117 INFO  [log] ### kategorieDerLieferungPropTransfer: 10000 
-2018-12-16 19:17:18,128 INFO  [SoapUITestCaseRunner] running step [Kategorie_Transfer]
-2018-12-16 19:17:18,134 INFO  [SoapUITestCaseRunner] running step [listShipments]
-2018-12-16 19:17:18,268 ERROR [AbstractTestRunner] Exception during Test Execution
-java.lang.NoClassDefFoundError: junit/framework/ComparisonFailure
-	at com.eviware.soapui.impl.wsdl.support.CompressionSupport.GZIPDecompress(CompressionSupport.java:114)
-	at com.eviware.soapui.impl.wsdl.support.CompressionSupport.decompress(CompressionSupport.java:75)
-	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpMethodSupport.getResponseBody(HttpMethodSupport.java:316)
-	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.methods.ExtendedPostMethod.getResponseBody(ExtendedPostMethod.java:128)
-	at com.eviware.soapui.impl.wsdl.submit.transports.http.BaseHttpResponse.<init>(BaseHttpResponse.java:90)
-	at com.eviware.soapui.impl.wsdl.submit.transports.http.SinglePartHttpResponse.<init>(SinglePartHttpResponse.java:42)
-	at com.eviware.soapui.impl.wsdl.submit.transports.http.support.attachments.WsdlSinglePartHttpResponse.<init>(WsdlSinglePartHttpResponse.java:36)
-	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.wsdlRequest(HttpPackagingResponseFilter.java:71)
-	at com.eviware.soapui.impl.wsdl.submit.filters.HttpPackagingResponseFilter.afterAbstractHttpResponse(HttpPackagingResponseFilter.java:48)
-	at com.eviware.soapui.impl.wsdl.submit.filters.AbstractRequestFilter.afterRequest(AbstractRequestFilter.java:64)
-	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:290)
-	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:123)
-	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:76)
-	at com.eviware.soapui.impl.wsdl.WsdlRequest.submit(WsdlRequest.java:238)
-	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:417)
+2018-12-16 19:38:54,749 WARN  [SoapUI] Missing folder [C:\Users\Public\Projekte\oxygen-workspace-q4-2017\bipro-ws-mock-service\.\ext] for external libraries
+2018-12-16 19:38:55,149 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Admin\soapui-settings.xml]
+2018-12-16 19:38:56,352 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Public/Projekte/oxygen-workspace-q4-2017/bipro-ws-mock-service/bipro-ws-mock-service-soapui-project.xml]
+2018-12-16 19:38:56,353 WARN  [WsdlProject] Project 'TransferService_spring_boot' is from a newer version (5.3.0) of SoapUI than this (4.6.1) and parts of it may be incompatible or incorrect. Saving this project with this version of SoapUI may cause it to function differently.
+2018-12-16 19:38:56,967 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [TransferService_spring_boot]
+2018-12-16 19:38:56,969 INFO  [SoapUITestCaseRunner] Running Project [TransferService_spring_boot], runType = SEQUENTIAL
+2018-12-16 19:38:56,982 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [listShipments TestCase]
+2018-12-16 19:38:56,989 INFO  [SoapUITestCaseRunner] running step [getKategorieDerLieferung]
+2018-12-16 19:38:57,467 INFO  [log] ### kategorieDerLieferungPropTransfer: 10000 
+2018-12-16 19:38:57,482 INFO  [SoapUITestCaseRunner] running step [Kategorie_Transfer]
+2018-12-16 19:38:57,484 INFO  [SoapUITestCaseRunner] running step [listShipments]
+2018-12-16 19:38:58,970 INFO  [SoapUITestCaseRunner] running step [GetListShipmentsTransferIdListToGetShipment]
+2018-12-16 19:38:59,143 INFO  [log] 
+2018-12-16 19:38:59,465 INFO  [log] ### Call kategorieDerLieferung :  ? ###
+2018-12-16 19:38:59,474 INFO  [log] ### Call Lieferung By LoopIndex :  1 ###
+2018-12-16 19:38:59,481 INFO  [log] ### LieferungTransferId : null  ###
+2018-12-16 19:38:59,488 WARN  [log] ### Call Lieferung By LoopIndex 1 Not Exit ###
+2018-12-16 19:38:59,489 INFO  [log] ### GotoStepByName : LoopIndexByListShipmentsTransferIdList.SCRIPT.CALL 
+2018-12-16 19:38:59,490 INFO  [SoapUITestCaseRunner] running step [LoopIndexByListShipmentsTransferIdList]
+2018-12-16 19:38:59,562 ERROR [SoapUI] An error occurred [net.sf.saxon.trans.XPathException: XPath syntax error at char 35 on line 2 in {...pmentsResponse//tran:Liefer...}:
+    Prefix tran has not been declared], see error log for details
+2018-12-16 19:38:59,563 ERROR [errorlog] java.lang.RuntimeException: net.sf.saxon.trans.XPathException: XPath syntax error at char 35 on line 2 in {...pmentsResponse//tran:Liefer...}:
+    Prefix tran has not been declared
+java.lang.RuntimeException: net.sf.saxon.trans.XPathException: XPath syntax error at char 35 on line 2 in {...pmentsResponse//tran:Liefer...}:
+    Prefix tran has not been declared
+	at org.apache.xmlbeans.impl.xpath.saxon.XBeansXPath.selectNodes(XBeansXPath.java:142)
+	at org.apache.xmlbeans.impl.xpath.saxon.XBeansXPath.selectPath(XBeansXPath.java:148)
+	at org.apache.xmlbeans.impl.store.Path$DelegatePathImpl$DelegatePathEngine.next(Path.java:541)
+	at org.apache.xmlbeans.impl.store.Cursor._toSelection(Cursor.java:931)
+	at org.apache.xmlbeans.impl.store.Cursor._toNextSelection(Cursor.java:920)
+	at org.apache.xmlbeans.impl.store.Cursor.toNextSelection(Cursor.java:2670)
+	at com.eviware.soapui.support.xml.XmlUtils.selectDomNodes(XmlUtils.java:1433)
+	at com.eviware.soapui.support.xml.XmlUtils.selectNodeValues(XmlUtils.java:1393)
+	at com.eviware.soapui.support.XmlHolder.getNodeValues(XmlHolder.java:100)
+	at com.eviware.soapui.support.XmlHolder.get(XmlHolder.java:225)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1520)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3308)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:161)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.getAt(DefaultGroovyMethods.java:202)
+	at org.codehaus.groovy.runtime.dgm$247.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:42)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at Script1.run(Script1.groovy:7)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:96)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:149)
 	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
 	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:48)
 	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:148)
@@ -36,11 +56,55 @@ java.lang.NoClassDefFoundError: junit/framework/ComparisonFailure
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.ClassNotFoundException: junit.framework.ComparisonFailure
-	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
-	... 25 more
-2018-12-16 19:17:18,270 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [listShipments TestCase], time taken: 453ms, status: FAILED
-2018-12-16 19:17:18,271 INFO  [SoapUITestCaseRunner] Project [TransferService_spring_boot] finished with status [FAILED] in 619ms
+Caused by: net.sf.saxon.trans.XPathException: XPath syntax error at char 35 on line 2 in {...pmentsResponse//tran:Liefer...}:
+    Prefix tran has not been declared
+	at net.sf.saxon.expr.ExpressionParser.grumble(ExpressionParser.java:149)
+	at net.sf.saxon.expr.ExpressionParser.makeNameCode(ExpressionParser.java:2238)
+	at net.sf.saxon.expr.ExpressionParser.makeNameTest(ExpressionParser.java:2342)
+	at net.sf.saxon.expr.ExpressionParser.parseNodeTest(ExpressionParser.java:1438)
+	at net.sf.saxon.expr.ExpressionParser.parseBasicStep(ExpressionParser.java:1331)
+	at net.sf.saxon.expr.ExpressionParser.parseStepExpression(ExpressionParser.java:1213)
+	at net.sf.saxon.expr.ExpressionParser.parseRemainingPath(ExpressionParser.java:1185)
+	at net.sf.saxon.expr.ExpressionParser.parsePathExpression(ExpressionParser.java:1133)
+	at net.sf.saxon.expr.ExpressionParser.parseUnaryExpression(ExpressionParser.java:1026)
+	at net.sf.saxon.expr.ExpressionParser.parseCastExpression(ExpressionParser.java:691)
+	at net.sf.saxon.expr.ExpressionParser.parseCastableExpression(ExpressionParser.java:646)
+	at net.sf.saxon.expr.ExpressionParser.parseTreatExpression(ExpressionParser.java:627)
+	at net.sf.saxon.expr.ExpressionParser.parseInstanceOfExpression(ExpressionParser.java:609)
+	at net.sf.saxon.expr.ExpressionParser.parseIntersectExpression(ExpressionParser.java:1059)
+	at net.sf.saxon.expr.ExpressionParser.parseUnionExpression(ExpressionParser.java:1041)
+	at net.sf.saxon.expr.ExpressionParser.parseMultiplicativeExpression(ExpressionParser.java:978)
+	at net.sf.saxon.expr.ExpressionParser.parseAdditiveExpression(ExpressionParser.java:958)
+	at net.sf.saxon.expr.ExpressionParser.parseRangeExpression(ExpressionParser.java:876)
+	at net.sf.saxon.expr.ExpressionParser.parseComparisonExpression(ExpressionParser.java:826)
+	at net.sf.saxon.expr.ExpressionParser.parseAndExpression(ExpressionParser.java:423)
+	at net.sf.saxon.expr.ExpressionParser.parseOrExpression(ExpressionParser.java:405)
+	at net.sf.saxon.expr.ExpressionParser.parseExprSingle(ExpressionParser.java:354)
+	at net.sf.saxon.expr.ExpressionParser.parseFunctionCall(ExpressionParser.java:1780)
+	at net.sf.saxon.expr.ExpressionParser.parseBasicStep(ExpressionParser.java:1307)
+	at net.sf.saxon.expr.ExpressionParser.parseStepExpression(ExpressionParser.java:1213)
+	at net.sf.saxon.expr.ExpressionParser.parseRelativePath(ExpressionParser.java:1151)
+	at net.sf.saxon.expr.ExpressionParser.parsePathExpression(ExpressionParser.java:1137)
+	at net.sf.saxon.expr.ExpressionParser.parseUnaryExpression(ExpressionParser.java:1026)
+	at net.sf.saxon.expr.ExpressionParser.parseCastExpression(ExpressionParser.java:691)
+	at net.sf.saxon.expr.ExpressionParser.parseCastableExpression(ExpressionParser.java:646)
+	at net.sf.saxon.expr.ExpressionParser.parseTreatExpression(ExpressionParser.java:627)
+	at net.sf.saxon.expr.ExpressionParser.parseInstanceOfExpression(ExpressionParser.java:609)
+	at net.sf.saxon.expr.ExpressionParser.parseIntersectExpression(ExpressionParser.java:1059)
+	at net.sf.saxon.expr.ExpressionParser.parseUnionExpression(ExpressionParser.java:1041)
+	at net.sf.saxon.expr.ExpressionParser.parseMultiplicativeExpression(ExpressionParser.java:978)
+	at net.sf.saxon.expr.ExpressionParser.parseAdditiveExpression(ExpressionParser.java:958)
+	at net.sf.saxon.expr.ExpressionParser.parseRangeExpression(ExpressionParser.java:876)
+	at net.sf.saxon.expr.ExpressionParser.parseComparisonExpression(ExpressionParser.java:826)
+	at net.sf.saxon.expr.ExpressionParser.parseAndExpression(ExpressionParser.java:423)
+	at net.sf.saxon.expr.ExpressionParser.parseOrExpression(ExpressionParser.java:405)
+	at net.sf.saxon.expr.ExpressionParser.parseExprSingle(ExpressionParser.java:354)
+	at net.sf.saxon.expr.ExpressionParser.parseExpression(ExpressionParser.java:306)
+	at net.sf.saxon.expr.ExpressionParser.parse(ExpressionParser.java:228)
+	at net.sf.saxon.expr.ExpressionTool.make(ExpressionTool.java:73)
+	at net.sf.saxon.sxpath.XPathEvaluator.createExpression(XPathEvaluator.java:167)
+	at org.apache.xmlbeans.impl.xpath.saxon.XBeansXPath.selectNodes(XBeansXPath.java:111)
+	... 32 more
+2018-12-16 19:38:59,570 ERROR [SoapUITestCaseRunner] LoopIndexByListShipmentsTransferIdList failed, exporting to [C:\Users\Public\Projekte\oxygen-workspace-q4-2017\bipro-ws-mock-service\TransferServiceBinding_TestSuite-listShipments_TestCase-LoopIndexByListShipmentsTransferIdList-0-FAILED.txt]
+2018-12-16 19:38:59,577 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [listShipments TestCase], time taken: 2568ms, status: FAILED
+2018-12-16 19:38:59,578 INFO  [SoapUITestCaseRunner] Project [TransferService_spring_boot] finished with status [FAILED] in 2603ms

@@ -1,3 +1,10 @@
 2018-12-16 19:16:05,825 INFO  [log] ### kategorieDerLieferungPropTransfer: 10000 
 2018-12-16 19:16:50,343 INFO  [log] ### kategorieDerLieferungPropTransfer: 10000 
 2018-12-16 19:17:18,117 INFO  [log] ### kategorieDerLieferungPropTransfer: 10000 
+2018-12-16 19:38:57,467 INFO  [log] ### kategorieDerLieferungPropTransfer: 10000 
+2018-12-16 19:38:59,143 INFO  [log] 
+2018-12-16 19:38:59,465 INFO  [log] ### Call kategorieDerLieferung :  ? ###
+2018-12-16 19:38:59,474 INFO  [log] ### Call Lieferung By LoopIndex :  1 ###
+2018-12-16 19:38:59,481 INFO  [log] ### LieferungTransferId : null  ###
+2018-12-16 19:38:59,488 WARN  [log] ### Call Lieferung By LoopIndex 1 Not Exit ###
+2018-12-16 19:38:59,489 INFO  [log] ### GotoStepByName : LoopIndexByListShipmentsTransferIdList.SCRIPT.CALL 
