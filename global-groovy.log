@@ -1,0 +1,17 @@
+2018-12-17 13:28:34,888 INFO  [log] 
+2018-12-17 13:28:35,092 INFO  [log] ### Call kategorieDerLieferung :  ? ###
+2018-12-17 13:28:35,092 INFO  [log] ### Call Lieferung By LoopIndex :  1 ###
+2018-12-17 13:28:35,108 INFO  [log] ### LieferungTransferId : null  ###
+2018-12-17 13:28:35,108 WARN  [log] ### Call Lieferung By LoopIndex 1 Not Exit ###
+2018-12-17 13:28:35,108 INFO  [log] ### GotoStepByName : LoopIndexByListShipmentsTransferIdList.SCRIPT.CALL 
+2018-12-17 13:30:36,752 INFO  [log] 
+2018-12-17 13:30:36,987 INFO  [log] ### Call kategorieDerLieferung :  ? ###
+2018-12-17 13:30:36,987 INFO  [log] ### Call Lieferung By LoopIndex :  1 ###
+2018-12-17 13:30:37,002 INFO  [log] ### LieferungTransferId : null  ###
+2018-12-17 13:30:37,002 WARN  [log] ### Call Lieferung By LoopIndex 1 Not Exit ###
+2018-12-17 13:30:37,002 INFO  [log] ### GotoStepByName : LoopIndexByListShipmentsTransferIdList.SCRIPT.CALL 
+2018-12-17 13:31:51,600 INFO  [log] 
+2018-12-17 13:31:51,835 INFO  [log] ### Call kategorieDerLieferung :  ? ###
+2018-12-17 13:31:51,851 INFO  [log] ### Call Lieferung By LoopIndex :  1 ###
+2018-12-17 13:31:51,851 WARN  [log] ### Call Lieferung By LoopIndex 1 Not Exit ###
+2018-12-17 13:31:51,851 INFO  [log] ### GotoStepByName : LoopIndexByListShipmentsTransferIdList.SCRIPT.CALL 

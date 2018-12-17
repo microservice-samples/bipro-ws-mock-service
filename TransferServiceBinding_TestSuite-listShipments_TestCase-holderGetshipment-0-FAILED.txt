@@ -1,0 +1,32 @@
+Status: FAILED
+Time Taken: 38
+Size: 0
+Timestamp: Mon Dec 17 13:33:47 CET 2018
+TestStep: holderGetshipment
+
+----------------- Messages ------------------------------
+org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException: string value 'No Authorization' is not a valid enumeration value for type of authType element in Credentials in namespace http://eviware.com/soapui/config
+
+----------------- Properties ------------------------------
+Endpoint: http://T430s:8088/mockTransferService
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tran:getShipment>
+         <tran:Request>
+            <!--Optional:-->
+            <bas:Erweiterung/>
+            <nac:BiPROVersion>?</nac:BiPROVersion>
+            <!--Optional:-->
+            <nac:ConsumerID>?</nac:ConsumerID>
+            <tran:ID>555523</tran:ID>
+         </tran:Request>
+      </tran:getShipment>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -

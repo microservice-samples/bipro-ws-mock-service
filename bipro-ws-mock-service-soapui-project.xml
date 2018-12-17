@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="13752dc7-ce79-45e0-9c5e-85b158d58d7c" activeEnvironment="Default" name="TransferService_spring_boot" soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL" resourceRoot="" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="13752dc7-ce79-45e0-9c5e-85b158d58d7c"
+	activeEnvironment="Default" name="TransferService_spring_boot"
+	soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL"
+	resourceRoot="" xmlns:con="http://eviware.com/soapui/config">
+	<con:settings>
+		<con:setting
+			id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Environment" value="Default"/>
   <con:entry key="Global Properties" value=""/>
   <con:entry key="TestSuite" value="TransferServiceBinding TestSuite"/>
@@ -30,7 +36,9 @@
   <con:entry key="Save After" value="false"/>
   <con:entry key="Add Settings" value="false"/>
   <con:entry key="Endpoint" value=""/>
-</xml-fragment>]]></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.LoadTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+</xml-fragment>]]></con:setting>
+		<con:setting
+			id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.LoadTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Environment" value="Default"/>
   <con:entry key="Global Properties" value=""/>
   <con:entry key="TestSuite" value="TransferServiceBinding TestSuite"/>
@@ -58,7 +66,22 @@
   <con:entry key="Endpoint" value=""/>
   <con:entry key="ThreadCount" value=""/>
   <con:entry key="Limit" value=""/>
-</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:WsdlInterface" id="ab0c36dc-78c2-40cb-8e93-47388fc1a75f" wsaVersion="NONE" name="TransferServiceBinding" type="wsdl" bindingName="{http://www.bipro.net/namespace}TransferServiceBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/soap-api/transferService?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/soap-api/transferService?wsdl"><con:part><con:url>http://localhost:8080/soap-api/transferService?wsdl</con:url><con:content><![CDATA[<wsdl:definitions bipro:Name="TransferService_2.4.4.1.0.wsdl" bipro:Version="2.4.4.1.0" targetNamespace="http://www.bipro.net/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xf="http://www.bipro.net/namespace/transfer" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:bipro="http://www.bipro.net/namespace" xmlns:allg="http://www.bipro.net/namespace/allgemein">
+</xml-fragment>]]></con:setting>
+	</con:settings>
+	<con:interface xsi:type="con:WsdlInterface"
+		id="ab0c36dc-78c2-40cb-8e93-47388fc1a75f" wsaVersion="NONE"
+		name="TransferServiceBinding" type="wsdl"
+		bindingName="{http://www.bipro.net/namespace}TransferServiceBinding"
+		soapVersion="1_1" anonymous="optional"
+		definition="http://localhost:8080/soap-api/transferService?wsdl"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<con:settings />
+		<con:definitionCache type="TEXT"
+			rootPart="http://localhost:8080/soap-api/transferService?wsdl">
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?wsdl
+				</con:url>
+				<con:content><![CDATA[<wsdl:definitions bipro:Name="TransferService_2.4.4.1.0.wsdl" bipro:Version="2.4.4.1.0" targetNamespace="http://www.bipro.net/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xf="http://www.bipro.net/namespace/transfer" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy" xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:bipro="http://www.bipro.net/namespace" xmlns:allg="http://www.bipro.net/namespace/allgemein">
   <wsdl:types>
     <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/2001/XMLSchema">
       <xsd:include schemaLocation="http://localhost:8080/soap-api/transferService?xsd=TransferService_2.4.4.1.0.xsd"/>
@@ -185,7 +208,13 @@
       </wsp:All>
     </wsp:ExactlyOne>
   </wsp:Policy>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=TransferService_2.4.4.1.0.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="TransferService_2.4.4.1.0.xsd" bipro:Version="2.4.4.1.0" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xf-gevo="http://www.bipro.net/namespace/transfer/gevo" xmlns:transfer="http://www.bipro.net/namespace/transfer" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:bipro="http://www.bipro.net/namespace" xmlns:allgemein="http://www.bipro.net/namespace/allgemein">
+</wsdl:definitions>]]></con:content>
+				<con:type>http://schemas.xmlsoap.org/wsdl/</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=TransferService_2.4.4.1.0.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="TransferService_2.4.4.1.0.xsd" bipro:Version="2.4.4.1.0" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xf-gevo="http://www.bipro.net/namespace/transfer/gevo" xmlns:transfer="http://www.bipro.net/namespace/transfer" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:bipro="http://www.bipro.net/namespace" xmlns:allgemein="http://www.bipro.net/namespace/allgemein">
   <!--Hier werden die für den Service benötigten BiPRO-Modelle importiert.-->
   <xsd:import namespace="http://www.bipro.net/namespace/nachrichten" schemaLocation="http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-nachrichten-2.4.4.xsd"/>
   <xsd:import namespace="http://www.bipro.net/namespace/allgemein" schemaLocation="http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-allgemein-2.4.4.xsd"/>
@@ -195,7 +224,13 @@
   <!--Hier werden die Namensräume der fachlichen Normen importiert.-->
   <!--z.B. fachliche Norm 430.2 - Übermittlung von Inkassostörfällen-->
   <!--<xsd:import namespace="http://www.bipro.net/namespace/transfer-inkassostoerfall" schemaLocation="../BiPRO-Schemas/bipro-transfer-inkassostoerfall.xsd"/>-->
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-nachrichten-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-nachrichten-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/nachrichten" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns="http://www.bipro.net/namespace/nachrichten">
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-nachrichten-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-nachrichten-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/nachrichten" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns="http://www.bipro.net/namespace/nachrichten">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -330,7 +365,13 @@ Status.statusid MUSS oder KANN das Objekt übermittelt werden.</xsd:documentatio
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-datentypen-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-datentypen-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/datentypen" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns="http://www.bipro.net/namespace/datentypen">
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-datentypen-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-datentypen-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/datentypen" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns="http://www.bipro.net/namespace/datentypen">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -17558,7 +17599,13 @@ Der Begriff Segelyacht (auch Segeljacht) bezeichnet ein Segelschiff, das haupts�
       </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-basis-2.4.0.xsd</con:url><con:content><![CDATA[<xs:schema attributeFormDefault="qualified" bipro:Name="bipro-basis-2.4.0.xsd" bipro:Version="2.4.0" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/basis" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns="http://www.bipro.net/namespace/basis">
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-basis-2.4.0.xsd
+				</con:url>
+				<con:content><![CDATA[<xs:schema attributeFormDefault="qualified" bipro:Name="bipro-basis-2.4.0.xsd" bipro:Version="2.4.0" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/basis" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns="http://www.bipro.net/namespace/basis">
   <xs:complexType abstract="true" name="CT_Objekt">
     <xs:annotation>
       <xsd:documentation xml:lang="de" xmlns:xsd="http://www.w3.org/2001/XMLSchema">Master-Objekt. Von diesem Datentypen werden alle anderen komplexen Datentypen der BiPRO direkt oder indirekt abgeleitet.</xsd:documentation>
@@ -17570,7 +17617,13 @@ Der Begriff Segelyacht (auch Segeljacht) bezeichnet ein Segelschiff, das haupts�
   <xs:complexType abstract="true" name="CT_Erweiterung">
     <xs:sequence/>
   </xs:complexType>
-</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-allgemein-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-allgemein-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/allgemein" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/allgemein">
+</xs:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-allgemein-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-allgemein-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/allgemein" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/allgemein">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -18196,7 +18249,13 @@ genaue Bezeichnung einer Anlage.</xsd:documentation>
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/xmlmime-2005-05.xsd</con:url><con:content><![CDATA[<!--W3C XML Schema defined in the Describing Media Content of Binary Data in XML
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/xmlmime-2005-05.xsd
+				</con:url>
+				<con:content><![CDATA[<!--W3C XML Schema defined in the Describing Media Content of Binary Data in XML
    specification
      http://www.w3.org/TR/xml-media-types
 
@@ -18234,7 +18293,13 @@ genaue Bezeichnung einer Anlage.</xsd:documentation>
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
-</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-partner-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-partner-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/partner" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/partner">
+</xs:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-partner-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-partner-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/partner" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/partner">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -19181,7 +19246,13 @@ Das Attribut Veranlagung (ST_Veranlagung) fehlt, da der entsprechende einfache D
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-transfer-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-transfer-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/transfer" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xf="http://www.bipro.net/namespace/transfer" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/transfer">
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-transfer-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-transfer-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/transfer" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xf="http://www.bipro.net/namespace/transfer" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:nachr="http://www.bipro.net/namespace/nachrichten" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/transfer">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -19502,7 +19573,13 @@ Gibt bei den Use Cases UC-1 und UC-5 die ausgewählte Option an, ob die Lieferun
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-gevo-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-gevo-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/gevo" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/gevo">
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-gevo-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-gevo-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/gevo" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://www.w3.org/2005/05/xmlmime" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/gevo">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -19611,7 +19688,13 @@ Gibt bei den Use Cases UC-1 und UC-5 die ausgewählte Option an, ob die Lieferun
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-transfer-gevo-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-transfer-gevo-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/transfer/gevo" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xf-gevo="http://www.bipro.net/namespace/transfer/gevo" xmlns:transfer="http://www.bipro.net/namespace/transfer" xmlns:pm="http://www.bipro.net/namespace/produktmodell" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:allgemein="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/transfer/gevo">
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-transfer-gevo-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-transfer-gevo-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/transfer/gevo" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xf-gevo="http://www.bipro.net/namespace/transfer/gevo" xmlns:transfer="http://www.bipro.net/namespace/transfer" xmlns:pm="http://www.bipro.net/namespace/produktmodell" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:allgemein="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/transfer/gevo">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -19640,7 +19723,13 @@ Gibt bei den Use Cases UC-1 und UC-5 die ausgewählte Option an, ob die Lieferun
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-produktmodell-2.4.4.xsd</con:url><con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-produktmodell-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/produktmodell" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pm="http://www.bipro.net/namespace/produktmodell" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/produktmodell">
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+			<con:part>
+				<con:url>http://localhost:8080/soap-api/transferService?xsd=../../BiPRO-Schemas/2.4.4/bipro-produktmodell-2.4.4.xsd
+				</con:url>
+				<con:content><![CDATA[<xsd:schema attributeFormDefault="qualified" bipro:Name="bipro-produktmodell-2.4.4.xsd" bipro:Version="2.4.4" elementFormDefault="qualified" targetNamespace="http://www.bipro.net/namespace/produktmodell" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pm="http://www.bipro.net/namespace/produktmodell" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:bipro="http://www.bipro.net/namespace" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns="http://www.bipro.net/namespace/produktmodell">
   <xsd:annotation>
     <xsd:appinfo>BiPRO Release 2.4.4</xsd:appinfo>
   </xsd:annotation>
@@ -19975,7 +20064,27 @@ Dynamikwidersprüche, ohne das Recht auf Dynamikerhöhung zu verlieren.</xsd:doc
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
-</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://T430s:8088/mockTransferService</con:endpoint><con:endpoint>http://localhost:8080/soap-api/transferService</con:endpoint></con:endpoints><con:operation id="6d51dd24-7c13-47b1-8f72-01e9e78d945c" isOneWay="false" action="urn:acknowledgeShipment" name="acknowledgeShipment" bindingOperationName="acknowledgeShipment" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="bfb39f1c-2230-4f39-b439-a1912928cfdb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/soap-api/transferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
+</xsd:schema>]]></con:content>
+				<con:type>http://www.w3.org/2001/XMLSchema</con:type>
+			</con:part>
+		</con:definitionCache>
+		<con:endpoints>
+			<con:endpoint>http://T430s:8088/mockTransferService</con:endpoint>
+			<con:endpoint>http://localhost:8080/soap-api/transferService
+			</con:endpoint>
+		</con:endpoints>
+		<con:operation id="6d51dd24-7c13-47b1-8f72-01e9e78d945c"
+			isOneWay="false" action="urn:acknowledgeShipment" name="acknowledgeShipment"
+			bindingOperationName="acknowledgeShipment" type="Request-Response"
+			inputName="" receivesAttachments="false" sendsAttachments="false"
+			anonymous="optional">
+			<con:settings />
+			<con:call id="bfb39f1c-2230-4f39-b439-a1912928cfdb" name="Request 1">
+				<con:settings />
+				<con:encoding>UTF-8</con:encoding>
+				<con:endpoint>http://localhost:8080/soap-api/transferService
+				</con:endpoint>
+				<con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <tran:acknowledgeShipment>\r
@@ -19989,7 +20098,24 @@ Dynamikwidersprüche, ohne das Recht auf Dynamikerhöhung zu verlieren.</xsd:doc
          </tran:Request>\r
       </tran:acknowledgeShipment>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:acknowledgeShipment"/></con:call></con:operation><con:operation id="3ec1f693-5924-4d51-9702-6f1da06ddab1" isOneWay="false" action="urn:getShipment" name="getShipment" bindingOperationName="getShipment" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f65d4e77-6ac5-46de-ba6f-63eec437239f" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://T430s:8088/mockTransferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
+</soapenv:Envelope>]]></con:request>
+				<con:wsaConfig mustUnderstand="NONE" version="200508"
+					action="urn:acknowledgeShipment" />
+			</con:call>
+		</con:operation>
+		<con:operation id="3ec1f693-5924-4d51-9702-6f1da06ddab1"
+			isOneWay="false" action="urn:getShipment" name="getShipment"
+			bindingOperationName="getShipment" type="Request-Response" inputName=""
+			receivesAttachments="false" sendsAttachments="false" anonymous="optional">
+			<con:settings />
+			<con:call id="f65d4e77-6ac5-46de-ba6f-63eec437239f" name="Request 1">
+				<con:settings>
+					<con:setting
+						id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+				</con:settings>
+				<con:encoding>UTF-8</con:encoding>
+				<con:endpoint>http://T430s:8088/mockTransferService</con:endpoint>
+				<con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <tran:getShipment>\r
@@ -20003,7 +20129,31 @@ Dynamikwidersprüche, ohne das Recht auf Dynamikerhöhung zu verlieren.</xsd:doc
          </tran:Request>\r
       </tran:getShipment>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:getShipment"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="68e56332-a542-4574-9ba0-4db2e0b36121" isOneWay="false" action="urn:listShipments" name="listShipments" bindingOperationName="listShipments" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e7e701f6-4736-483c-9452-549000887aed" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://T430s:8088/mockTransferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
+</soapenv:Envelope>]]></con:request>
+				<con:credentials>
+					<con:authType>No Authorization</con:authType>
+				</con:credentials>
+				<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+				<con:jmsPropertyConfig />
+				<con:wsaConfig mustUnderstand="NONE" version="200508"
+					action="urn:getShipment" />
+				<con:wsrmConfig version="1.2" />
+			</con:call>
+		</con:operation>
+		<con:operation id="68e56332-a542-4574-9ba0-4db2e0b36121"
+			isOneWay="false" action="urn:listShipments" name="listShipments"
+			bindingOperationName="listShipments" type="Request-Response"
+			inputName="" receivesAttachments="false" sendsAttachments="false"
+			anonymous="optional">
+			<con:settings />
+			<con:call id="e7e701f6-4736-483c-9452-549000887aed" name="Request 1">
+				<con:settings>
+					<con:setting
+						id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+				</con:settings>
+				<con:encoding>UTF-8</con:encoding>
+				<con:endpoint>http://T430s:8088/mockTransferService</con:endpoint>
+				<con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <tran:listShipments>\r
@@ -20020,7 +20170,29 @@ Dynamikwidersprüche, ohne das Recht auf Dynamikerhöhung zu verlieren.</xsd:doc
          </tran:Request>\r
       </tran:listShipments>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:credentials><con:username>admin</con:username><con:password>admin</con:password><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:listShipments"/><con:wsrmConfig version="1.2"/></con:call><con:call id="daa4c6c9-54cf-4cb1-a401-37621ac05fff" name="Request 2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://T430s:8088/mockTransferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
+</soapenv:Envelope>]]></con:request>
+				<con:credentials>
+					<con:username>admin</con:username>
+					<con:password>admin</con:password>
+					<con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+					<con:addedBasicAuthenticationTypes>Basic
+					</con:addedBasicAuthenticationTypes>
+					<con:authType>No Authorization</con:authType>
+				</con:credentials>
+				<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+				<con:jmsPropertyConfig />
+				<con:wsaConfig mustUnderstand="NONE" version="200508"
+					action="urn:listShipments" />
+				<con:wsrmConfig version="1.2" />
+			</con:call>
+			<con:call id="daa4c6c9-54cf-4cb1-a401-37621ac05fff" name="Request 2">
+				<con:settings>
+					<con:setting
+						id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+				</con:settings>
+				<con:encoding>UTF-8</con:encoding>
+				<con:endpoint>http://T430s:8088/mockTransferService</con:endpoint>
+				<con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <tran:listShipments>\r
@@ -20037,12 +20209,83 @@ Dynamikwidersprüche, ohne das Recht auf Dynamikerhöhung zu verlieren.</xsd:doc
          </tran:Request>\r
       </tran:listShipments>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:listShipments"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite id="4b124468-6549-4531-8811-877b30880cb4" name="TransferServiceBinding TestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="877001f7-a8e9-4763-bcba-987b88506f7e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="listShipments TestCase" searchProperties="true"><con:settings/><con:testStep type="groovy" name="getKategorieDerLieferung" id="604af56b-676a-4d3a-93d2-4b7970716478" disabled="true"><con:settings/><con:config><script>def kategorie = testRunner.testCase.getPropertyValue( "kategorie.police" )
-testRunner.testCase.setPropertyValue( "kategorieDerLieferungPropTransfer", kategorie )
-log.info("### kategorieDerLieferungPropTransfer: $kategorie ")
-return "$kategorie".toInteger()</script></con:config></con:testStep><con:testStep type="transfer" name="Kategorie_Transfer" id="9a299dfe-2ec2-4127-a981-b3b4deff7890" disabled="true"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" disabled="false" entitize="false" ignoreEmpty="true" transferChildNodes="false" transferToAll="false" useXQuery="false"><con:name>kategorieDerLieferungPropTransfer</con:name><con:sourceType>result</con:sourceType><con:sourceStep>GetListShipmentsTransferIdListToGetShipment</con:sourceStep><con:sourcePath>
-</con:sourcePath><con:targetType>Request</con:targetType><con:targetStep>listShipments</con:targetStep><con:targetPath>declare namespace tran ="http://www.bipro.net/namespace/transfer" 
-//tran:listShipments/tran:KategorieDerLieferung</con:targetPath><con:type>XPATH</con:type><con:targetTransferType>XPATH</con:targetTransferType><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="request" id="52e7c029-e01c-4b9e-8b14-87471be6290e" name="listShipments"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>TransferServiceBinding</con:interface><con:operation>listShipments</con:operation><con:request name="listShipments" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="be47547d-1148-42fa-830d-5d8a0cc89567"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://T430s:8088/mockTransferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
+</soapenv:Envelope>]]></con:request>
+				<con:credentials>
+					<con:authType>No Authorization</con:authType>
+				</con:credentials>
+				<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+				<con:jmsPropertyConfig />
+				<con:wsaConfig mustUnderstand="NONE" version="200508"
+					action="urn:listShipments" />
+				<con:wsrmConfig version="1.2" />
+			</con:call>
+		</con:operation>
+	</con:interface>
+	<con:testSuite id="4b124468-6549-4531-8811-877b30880cb4"
+		name="TransferServiceBinding TestSuite">
+		<con:settings />
+		<con:runType>SEQUENTIAL</con:runType>
+		<con:testCase id="877001f7-a8e9-4763-bcba-987b88506f7e"
+			failOnError="true" failTestCaseOnErrors="true" keepSession="false"
+			maxResults="0" name="listShipments TestCase" searchProperties="true">
+			<con:settings />
+			<con:testStep type="groovy" name="getKategorieDerLieferung"
+				id="604af56b-676a-4d3a-93d2-4b7970716478" disabled="true">
+				<con:settings />
+				<con:config>
+					<script>def kategorie = testRunner.testCase.getPropertyValue(
+						"kategorie.police" )
+						testRunner.testCase.setPropertyValue( "kategorieDerLieferungPropTransfer", kategorie )
+						log.info("### kategorieDerLieferungPropTransfer: $kategorie ")
+						return "$kategorie".toInteger()
+					</script>
+				</con:config>
+			</con:testStep>
+			<con:testStep type="transfer" name="Kategorie_Transfer"
+				id="9a299dfe-2ec2-4127-a981-b3b4deff7890" disabled="true">
+				<con:settings />
+				<con:config xsi:type="con:PropertyTransfersStep"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:transfers setNullOnMissingSource="true"
+						transferTextContent="true" failOnError="true" disabled="false"
+						entitize="false" ignoreEmpty="true" transferChildNodes="false"
+						transferToAll="false" useXQuery="false">
+						<con:name>kategorieDerLieferungPropTransfer</con:name>
+						<con:sourceType>result</con:sourceType>
+						<con:sourceStep>GetListShipmentsTransferIdListToGetShipment
+						</con:sourceStep>
+						<con:sourcePath>
+						</con:sourcePath>
+						<con:targetType>Request</con:targetType>
+						<con:targetStep>listShipments</con:targetStep>
+						<con:targetPath>declare namespace tran
+							="http://www.bipro.net/namespace/transfer"
+							//tran:listShipments/tran:KategorieDerLieferung
+						</con:targetPath>
+						<con:type>XPATH</con:type>
+						<con:targetTransferType>XPATH</con:targetTransferType>
+						<con:upgraded>true</con:upgraded>
+					</con:transfers>
+				</con:config>
+			</con:testStep>
+			<con:testStep type="request"
+				id="52e7c029-e01c-4b9e-8b14-87471be6290e" name="listShipments">
+				<con:settings />
+				<con:config xsi:type="con:RequestStep"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:interface>TransferServiceBinding</con:interface>
+					<con:operation>listShipments</con:operation>
+					<con:request name="listShipments" outgoingWss=""
+						incomingWss="" timeout="" sslKeystore="" useWsAddressing="false"
+						useWsReliableMessaging="false" wssPasswordType=""
+						id="be47547d-1148-42fa-830d-5d8a0cc89567">
+						<con:settings>
+							<con:setting
+								id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+						</con:settings>
+						<con:encoding>UTF-8</con:encoding>
+						<con:endpoint>http://T430s:8088/mockTransferService</con:endpoint>
+						<con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <tran:listShipments>\r
@@ -20059,38 +20302,79 @@ return "$kategorie".toInteger()</script></con:config></con:testStep><con:testSte
          </tran:Request>\r
       </tran:listShipments>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="Schema Compliance" id="a6862ff0-d301-4512-9c90-6a33ac01f848" name="Schema Compliance" disabled="true"><con:configuration/></con:assertion><con:assertion type="Simple Contains" id="19afc3aa-75d3-4716-95f1-533f4f49b9fa" name="Contains"><con:configuration><token/><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:listShipments"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="groovy" name="GetListShipmentsTransferIdListToGetShipment" id="5dee621d-f640-4af4-bb88-5a1531bbb3db"><con:settings/><con:config><script>// ## getLieferungTransferId From ListShipmentList.Lieferung.Response() To GetShipment.Request()
-def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context) 
-def responseHolder = groovyUtils.getXmlHolder("listShipments#Response")
-def requestHolder = groovyUtils.getXmlHolder("listShipments#Request") 
-responseHolder.namespaces["tran"]="http://www.bipro.net/namespace/transfer"
-requestHolder.namespaces["tran"]="http://www.bipro.net/namespace/transfer"
-
-//${kategorieDerLieferungList#KategorieDerLieferung.kkink}
-
-def testcasePro = testRunner.testCase.testSuite.getPropertyValue('${#listShipments TestCase}')
-log.info (testcasePro)
-
-def kategorieDerLieferung = requestHolder.getNodeValue( "//tran:listShipments//tran:KategorieDerLieferung")
-log.info("### Call kategorieDerLieferung :  $kategorieDerLieferung ###")
-
-// loop item nodes in response message
-if( context.loopIndex == null )
-	context.loopIndex = 1
-
-log.info("### Call Lieferung By LoopIndex :  $context.loopIndex ###")
-
-def lieferungTransferId = responseHolder.getNodeValue( "//tran:listShipmentsResponse//tran:Lieferung[$context.loopIndex]/tran:ID")
-log.info("### LieferungTransferId : $lieferungTransferId  ###")
-
-if(responseHolder.getNodeValue("//tran:listShipmentsResponse//tran:Lieferung[$context.loopIndex]/tran:ID")!=null)
-	return responseHolder.getNodeValue("//tran:listShipmentsResponse//tran:Lieferung[$context.loopIndex]/tran:ID").toInteger()
-else{
-	log.warn("### Call Lieferung By LoopIndex $context.loopIndex Not Exit ###")
-	log.info("### GotoStepByName : LoopIndexByListShipmentsTransferIdList.SCRIPT.CALL ")
-	testRunner.gotoStepByName( "LoopIndexByListShipmentsTransferIdList" )
-}</script></con:config></con:testStep><con:testStep type="transfer" name="TransferID_Transfer" id="e97cb8dd-7b4f-4c1a-90bd-bbe2fbb00681"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="false" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>GetShipmentTransferID</con:name><con:sourceType>result</con:sourceType><con:sourceStep>GetListShipmentsTransferIdListToGetShipment</con:sourceStep><con:sourcePath/><con:targetType>Request</con:targetType><con:targetStep>holderGetshipment</con:targetStep><con:targetPath>declare namespace tran ="http://www.bipro.net/namespace/transfer" 
-//tran:getShipment/tran:Request/tran:ID</con:targetPath><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="request" id="91bbe848-58ef-4a89-921d-aab2fa6b1e65" name="holderGetshipment"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>TransferServiceBinding</con:interface><con:operation>getShipment</con:operation><con:request name="holderGetshipment" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="aaf5d39b-a8f9-45fb-8bde-5dc8ec424438"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://T430s:8088/mockTransferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">    <soapenv:Header/>
+</soapenv:Envelope>]]></con:request>
+						<con:assertion type="Schema Compliance"
+							id="a6862ff0-d301-4512-9c90-6a33ac01f848" name="Schema Compliance"
+							disabled="true">
+							<con:configuration />
+						</con:assertion>
+						<con:assertion type="Simple Contains"
+							id="19afc3aa-75d3-4716-95f1-533f4f49b9fa" name="Contains">
+							<con:configuration>
+								<token />
+								<ignoreCase>false</ignoreCase>
+								<useRegEx>false</useRegEx>
+							</con:configuration>
+						</con:assertion>
+						<con:credentials>
+							<con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+							<con:addedBasicAuthenticationTypes>Basic
+							</con:addedBasicAuthenticationTypes>
+							<con:authType>Global HTTP Settings</con:authType>
+						</con:credentials>
+						<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+						<con:jmsPropertyConfig />
+						<con:wsaConfig mustUnderstand="NONE" version="200508"
+							action="urn:listShipments" />
+						<con:wsrmConfig version="1.2" />
+					</con:request>
+				</con:config>
+			</con:testStep>
+			<con:testStep type="groovy"
+				name="GetListShipmentsTransferIdListToGetShipment" id="5dee621d-f640-4af4-bb88-5a1531bbb3db">
+				<con:settings />
+				<con:config>
+		
+				</con:config>
+			</con:testStep>
+			<con:testStep type="transfer" name="TransferID_Transfer"
+				id="e97cb8dd-7b4f-4c1a-90bd-bbe2fbb00681">
+				<con:settings />
+				<con:config xsi:type="con:PropertyTransfersStep"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:transfers setNullOnMissingSource="true"
+						transferTextContent="false" failOnError="true" ignoreEmpty="false"
+						transferToAll="false" entitize="false" transferChildNodes="false">
+						<con:name>GetShipmentTransferID</con:name>
+						<con:sourceType>result</con:sourceType>
+						<con:sourceStep>GetListShipmentsTransferIdListToGetShipment
+						</con:sourceStep>
+						<con:sourcePath />
+						<con:targetType>Request</con:targetType>
+						<con:targetStep>holderGetshipment</con:targetStep>
+						
+						<con:upgraded>true</con:upgraded>
+					</con:transfers>
+				</con:config>
+			</con:testStep>
+			<con:testStep type="request"
+				id="91bbe848-58ef-4a89-921d-aab2fa6b1e65" name="holderGetshipment">
+				<con:settings />
+				<con:config xsi:type="con:RequestStep"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:interface>TransferServiceBinding</con:interface>
+					<con:operation>getShipment</con:operation>
+					<con:request name="holderGetshipment" outgoingWss=""
+						incomingWss="" timeout="" sslKeystore="" useWsAddressing="false"
+						useWsReliableMessaging="false" wssPasswordType=""
+						id="aaf5d39b-a8f9-45fb-8bde-5dc8ec424438">
+						<con:settings>
+							<con:setting
+								id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+						</con:settings>
+						<con:encoding>UTF-8</con:encoding>
+						<con:endpoint>http://T430s:8088/mockTransferService</con:endpoint>
+						<con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">    <soapenv:Header/>
    <soapenv:Body>       <tran:getShipment>          <tran:Request>             <!--Optional:-->
             <bas:Erweiterung/>
             <nac:BiPROVersion>?</nac:BiPROVersion>
@@ -20100,27 +20384,141 @@ else{
          </tran:Request>
       </tran:getShipment>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="Simple Contains" id="484dd2b7-43d6-4985-b514-9c6ea446c398" name="Contains"><con:configuration><token/><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Simple Contains" id="92223c4a-25ef-4229-beaa-9c4942fa6f78" name="transferID" disabled="true"><con:configuration><token>not null</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:getShipment"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="groovy" name="LoopIndexByListShipmentsTransferIdList" id="5d6fe58c-4e91-431e-99a9-7ffe11b0b42d"><con:settings/><con:config><script>def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
-def holder = groovyUtils.getXmlHolder("listShipments#Response")
-def namespace tran ="http://www.bipro.net/namespace/transfer" 
+</soapenv:Envelope>]]></con:request>
+						<con:assertion type="Simple Contains"
+							id="484dd2b7-43d6-4985-b514-9c6ea446c398" name="Contains">
+							<con:configuration>
+								<token />
+								<ignoreCase>false</ignoreCase>
+								<useRegEx>false</useRegEx>
+							</con:configuration>
+						</con:assertion>
+						<con:assertion type="Simple Contains"
+							id="92223c4a-25ef-4229-beaa-9c4942fa6f78" name="transferID"
+							disabled="true">
+							<con:configuration>
+								<token>not null</token>
+								<ignoreCase>true</ignoreCase>
+								<useRegEx>false</useRegEx>
+							</con:configuration>
+						</con:assertion>
+						<con:credentials>
+							<con:authType>No Authorization</con:authType>
+						</con:credentials>
+						<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+						<con:jmsPropertyConfig />
+						<con:wsaConfig mustUnderstand="NONE" version="200508"
+							action="urn:getShipment" />
+						<con:wsrmConfig version="1.2" />
+					</con:request>
+				</con:config>
+			</con:testStep>
+			<con:testStep type="groovy"
+				name="LoopIndexByListShipmentsTransferIdList" id="5d6fe58c-4e91-431e-99a9-7ffe11b0b42d">
+				<con:settings />
+				<con:config>
+					<script>def groovyUtils = new
+						com.eviware.soapui.support.GroovyUtils(context)
+						def holder = groovyUtils.getXmlHolder("listShipments#Response")
 
-if( context.loopIndex == null )
-   context.loopIndex = 1
+						if( context.loopIndex == null )
+						context.loopIndex = 1
 
-def shipmentsCount = holder["count(//tran:listShipmentsResponse//tran:Lieferung)"]
-log.info("### AnzahlDerLieferungen : $shipmentsCount ")
-log.info("### LoopIndex : $context.loopIndex ")
+						def shipmentsCount =
+						holder["count(//tran:listShipmentsResponse//tran:Lieferung)"]
+						log.info("### AnzahlDerLieferungen : $shipmentsCount ")
+						log.info("### LoopIndex : $context.loopIndex ")
 
-if( context.loopIndex &lt; "$shipmentsCount".toInteger()+1){
-	
-	log.info("## LoopIndex- Nr. :  $context.loopIndex ")
-	++context.loopIndex
-	log.info("### GotoStepByName : GetListShipmentsTransferIdListToGetShipment.SCRIPT.CALL ")
-     testRunner.gotoStepByName("GetListShipmentsTransferIdListToGetShipment")
-}else{
-	log.info("### GotoStepByName : GetLieferungTransferIdListToGetShipment.SCRIPT.EXIT ")
-}
-</script></con:config></con:testStep><con:loadTest id="9f176a2a-c668-4c5e-9452-967fc4d6f955" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties><con:property><con:name>kategorie.police</con:name><con:value>10000</con:value></con:property><con:property><con:name>kategorie.kkink</con:name><con:value>9000</con:value></con:property><con:property><con:name>kategorie.courtage</con:name><con:value>4000</con:value></con:property><con:property><con:name>kategoie.sonstiges</con:name><con:value>9999</con:value></con:property><con:property><con:name>kategorieDerLieferungPropTransfer</con:name><con:value>10000</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>GetShipmentTransferID</con:name><con:value>${GetListShipmentsTransferIdListToGetShipment#result}</con:value></con:property><con:property><con:name>kategorieDerLieferungPropTransfer</con:name><con:value/></con:property></con:properties></con:testSuite><con:mockService id="c1c95a4f-4a44-47a0-a66b-5f37c90e524d" port="8088" path="/mockTransferService" host="T430s" name="TransferServiceMockService"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:mockOperation name="acknowledgeShipment" id="affa9a8d-1143-401d-b68d-b73f372b9f4c" interface="TransferServiceBinding" operation="acknowledgeShipment"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:response name="Response 1" id="a9c34db5-29e4-4d16-ac67-f68998a2d4e0" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">
+						if( context.loopIndex &lt; "$shipmentsCount".toInteger()+1){
+
+						log.info("## LoopIndex- Nr. : $context.loopIndex ")
+						++context.loopIndex
+						log.info("### GotoStepByName :
+						GetListShipmentsTransferIdListToGetShipment.SCRIPT.CALL ")
+						testRunner.gotoStepByName("GetListShipmentsTransferIdListToGetShipment")
+						}else{
+						log.info("### GotoStepByName :
+						GetLieferungTransferIdListToGetShipment.SCRIPT.EXIT ")
+						}
+					</script>
+				</con:config>
+			</con:testStep>
+			<con:loadTest id="9f176a2a-c668-4c5e-9452-967fc4d6f955"
+				name="LoadTest 1">
+				<con:settings>
+					<con:setting id="HttpSettings@close-connections">false</con:setting>
+				</con:settings>
+				<con:threadCount>5</con:threadCount>
+				<con:startDelay>0</con:startDelay>
+				<con:sampleInterval>250</con:sampleInterval>
+				<con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed>
+				<con:resetStatisticsOnThreadCountChange>true
+				</con:resetStatisticsOnThreadCountChange>
+				<con:historyLimit>-1</con:historyLimit>
+				<con:testLimit>60</con:testLimit>
+				<con:limitType>TIME</con:limitType>
+				<con:loadStrategy>
+					<con:type>Simple</con:type>
+				</con:loadStrategy>
+				<con:assertion type="Step Status" name="Step Status" />
+				<con:maxAssertionErrors>100</con:maxAssertionErrors>
+				<con:cancelExcessiveThreads>true</con:cancelExcessiveThreads>
+				<con:strategyInterval>500</con:strategyInterval>
+			</con:loadTest>
+			<con:properties>
+				<con:property>
+					<con:name>kategorie.police</con:name>
+					<con:value>10000</con:value>
+				</con:property>
+				<con:property>
+					<con:name>kategorie.kkink</con:name>
+					<con:value>9000</con:value>
+				</con:property>
+				<con:property>
+					<con:name>kategorie.courtage</con:name>
+					<con:value>4000</con:value>
+				</con:property>
+				<con:property>
+					<con:name>kategoie.sonstiges</con:name>
+					<con:value>9999</con:value>
+				</con:property>
+				<con:property>
+					<con:name>kategorieDerLieferungPropTransfer</con:name>
+					<con:value>10000</con:value>
+				</con:property>
+			</con:properties>
+		</con:testCase>
+		<con:properties>
+			<con:property>
+				<con:name>GetShipmentTransferID</con:name>
+				<con:value>${GetListShipmentsTransferIdListToGetShipment#result}
+				</con:value>
+			</con:property>
+			<con:property>
+				<con:name>kategorieDerLieferungPropTransfer</con:name>
+				<con:value />
+			</con:property>
+		</con:properties>
+	</con:testSuite>
+	<con:mockService id="c1c95a4f-4a44-47a0-a66b-5f37c90e524d"
+		port="8088" path="/mockTransferService" host="T430s"
+		name="TransferServiceMockService">
+		<con:settings>
+			<con:setting
+				id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting>
+		</con:settings>
+		<con:properties />
+		<con:mockOperation name="acknowledgeShipment"
+			id="affa9a8d-1143-401d-b68d-b73f372b9f4c" interface="TransferServiceBinding"
+			operation="acknowledgeShipment">
+			<con:settings />
+			<con:defaultResponse>Response 1</con:defaultResponse>
+			<con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+			<con:response name="Response 1"
+				id="a9c34db5-29e4-4d16-ac67-f68998a2d4e0" httpResponseStatus="200"
+				encoding="UTF-8">
+				<con:settings />
+				<con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten">
    <soapenv:Header/>
    <soapenv:Body>
       <tran:acknowledgeShipmentResponse>
@@ -20156,7 +20554,23 @@ if( context.loopIndex &lt; "$shipmentsCount".toInteger()+1){
          </tran:Response>
       </tran:acknowledgeShipmentResponse>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:acknowledgeShipment"/></con:response><con:dispatchConfig/></con:mockOperation><con:mockOperation name="getShipment" id="adfc6e78-f139-408e-b6b7-eba9276ed14c" interface="TransferServiceBinding" operation="getShipment"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:response name="Response 1" id="00743ea6-b149-47f2-910d-5e5b360d5d8f" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:all="http://www.bipro.net/namespace/allgemein" xmlns:xm="http://www.w3.org/2005/05/xmlmime" xmlns:par="http://www.bipro.net/namespace/partner">
+</soapenv:Envelope>]]></con:responseContent>
+				<con:wsaConfig mustUnderstand="NONE" version="200508"
+					action="urn:acknowledgeShipment" />
+			</con:response>
+			<con:dispatchConfig />
+		</con:mockOperation>
+		<con:mockOperation name="getShipment"
+			id="adfc6e78-f139-408e-b6b7-eba9276ed14c" interface="TransferServiceBinding"
+			operation="getShipment">
+			<con:settings />
+			<con:defaultResponse>Response 1</con:defaultResponse>
+			<con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+			<con:response name="Response 1"
+				id="00743ea6-b149-47f2-910d-5e5b360d5d8f" httpResponseStatus="200"
+				encoding="UTF-8">
+				<con:settings />
+				<con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:all="http://www.bipro.net/namespace/allgemein" xmlns:xm="http://www.w3.org/2005/05/xmlmime" xmlns:par="http://www.bipro.net/namespace/partner">
    <soapenv:Header/>
    <soapenv:Body>
       <tran:getShipmentResponse>
@@ -21878,7 +22292,43 @@ if( context.loopIndex &lt; "$shipmentsCount".toInteger()+1){
          </tran:Response>
       </tran:getShipmentResponse>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:responseContent><con:attachment><con:name>TransferServiceBinding_TestSuite-listShipments_TestCase-Groovy_Script_-0-FAILED.txt</con:name><con:contentType>text/plain</con:contentType><con:size>343</con:size><con:contentId>TransferServiceBinding_TestSuite-listShipments_TestCase-Groovy_Script_-0-FAILED.txt</con:contentId><con:data>UEsDBBQACAgIADCuZE0AAAAAAAAAAAAAAABTAAAAVHJhbnNmZXJTZXJ2aWNlQmluZGluZ19UZXN0U3VpdGUtbGlzdFNoaXBtZW50c19UZXN0Q2FzZS1Hcm9vdnlfU2NyaXB0Xy0wLUZBSUxFRC50eHSt0MFKw0AQBuD7wr7D/wLGJAtFllIoNRWhnpKDN9mkQ7qYZJbdsbQ+vUs9qVf/6/8NM0wrTj6SxX77fGgeter8TOjcOy0WVbUqtWr9J1mU31USN4eso8eeetQGdW2NsWaFXdOhLquHDDNrhbJ7isznK9oh+iBvWjUxcrQcx8IFN5youMxTT25Jxes8NZeBgnjOm+nmsL4PGxyZEhYWDBMngrgR656P102hlVZ3v4MXSsmNeeZP9SNa/d8ZNwcnmPySf2W0+gJQSwcI6aZYo8YAAABXAQAAUEsBAhQAFAAICAgAMK5kTemmWKPGAAAAVwEAAFMAAAAAAAAAAAAAAAAAAAAAAFRyYW5zZmVyU2VydmljZUJpbmRpbmdfVGVzdFN1aXRlLWxpc3RTaGlwbWVudHNfVGVzdENhc2UtR3Jvb3Z5X1NjcmlwdF8tMC1GQUlMRUQudHh0UEsFBgAAAAABAAEAgQAAAEcBAAAAAA==</con:data><con:id>2c39f12a-9f08-441d-8fdc-e414b062cdd5</con:id></con:attachment><con:attachment><con:name>README.md</con:name><con:contentType>application/octet-stream</con:contentType><con:size>4579</con:size><con:contentId>README.md</con:contentId><con:data>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</con:data><con:id>ea76ab99-1af1-44dc-9c21-2b1f291715cc</con:id></con:attachment><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:getShipment"/></con:response><con:dispatchConfig/></con:mockOperation><con:mockOperation name="listShipments" id="a796fc98-bb01-47d8-8250-b5705936bae8" interface="TransferServiceBinding" operation="listShipments"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:response name="Response 1" id="2dca5715-45af-477e-bd7b-cf757ad18bf6" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:all="http://www.bipro.net/namespace/allgemein" xmlns:xm="http://www.w3.org/2005/05/xmlmime" xmlns:par="http://www.bipro.net/namespace/partner">
+</soapenv:Envelope>]]></con:responseContent>
+				<con:attachment>
+					<con:name>TransferServiceBinding_TestSuite-listShipments_TestCase-Groovy_Script_-0-FAILED.txt
+					</con:name>
+					<con:contentType>text/plain</con:contentType>
+					<con:size>343</con:size>
+					<con:contentId>TransferServiceBinding_TestSuite-listShipments_TestCase-Groovy_Script_-0-FAILED.txt
+					</con:contentId>
+					<con:data>UEsDBBQACAgIADCuZE0AAAAAAAAAAAAAAABTAAAAVHJhbnNmZXJTZXJ2aWNlQmluZGluZ19UZXN0U3VpdGUtbGlzdFNoaXBtZW50c19UZXN0Q2FzZS1Hcm9vdnlfU2NyaXB0Xy0wLUZBSUxFRC50eHSt0MFKw0AQBuD7wr7D/wLGJAtFllIoNRWhnpKDN9mkQ7qYZJbdsbQ+vUs9qVf/6/8NM0wrTj6SxX77fGgeter8TOjcOy0WVbUqtWr9J1mU31USN4eso8eeetQGdW2NsWaFXdOhLquHDDNrhbJ7isznK9oh+iBvWjUxcrQcx8IFN5youMxTT25Jxes8NZeBgnjOm+nmsL4PGxyZEhYWDBMngrgR656P102hlVZ3v4MXSsmNeeZP9SNa/d8ZNwcnmPySf2W0+gJQSwcI6aZYo8YAAABXAQAAUEsBAhQAFAAICAgAMK5kTemmWKPGAAAAVwEAAFMAAAAAAAAAAAAAAAAAAAAAAFRyYW5zZmVyU2VydmljZUJpbmRpbmdfVGVzdFN1aXRlLWxpc3RTaGlwbWVudHNfVGVzdENhc2UtR3Jvb3Z5X1NjcmlwdF8tMC1GQUlMRUQudHh0UEsFBgAAAAABAAEAgQAAAEcBAAAAAA==
+					</con:data>
+					<con:id>2c39f12a-9f08-441d-8fdc-e414b062cdd5</con:id>
+				</con:attachment>
+				<con:attachment>
+					<con:name>README.md</con:name>
+					<con:contentType>application/octet-stream</con:contentType>
+					<con:size>4579</con:size>
+					<con:contentId>README.md</con:contentId>
+					<con:data>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
+					</con:data>
+					<con:id>ea76ab99-1af1-44dc-9c21-2b1f291715cc</con:id>
+				</con:attachment>
+				<con:wsaConfig mustUnderstand="NONE" version="200508"
+					action="urn:getShipment" />
+			</con:response>
+			<con:dispatchConfig />
+		</con:mockOperation>
+		<con:mockOperation name="listShipments"
+			id="a796fc98-bb01-47d8-8250-b5705936bae8" interface="TransferServiceBinding"
+			operation="listShipments">
+			<con:settings />
+			<con:defaultResponse>Response 1</con:defaultResponse>
+			<con:dispatchStyle>SCRIPT</con:dispatchStyle>
+			<con:response name="Response 1"
+				id="2dca5715-45af-477e-bd7b-cf757ad18bf6" httpResponseStatus="200"
+				encoding="UTF-8">
+				<con:settings />
+				<con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tran="http://www.bipro.net/namespace/transfer" xmlns:bas="http://www.bipro.net/namespace/basis" xmlns:nac="http://www.bipro.net/namespace/nachrichten" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:all="http://www.bipro.net/namespace/allgemein" xmlns:xm="http://www.w3.org/2005/05/xmlmime" xmlns:par="http://www.bipro.net/namespace/partner">
    <soapenv:Header/>
    <soapenv:Body>
       <tran:listShipmentsResponse>
@@ -21941,4 +22391,16 @@ if( context.loopIndex &lt; "$shipmentsCount".toInteger()+1){
          </tran:Response>
       </tran:listShipmentsResponse>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:listShipments"/></con:response><con:dispatchConfig/></con:mockOperation></con:mockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</soapenv:Envelope>]]></con:responseContent>
+				<con:wsaConfig mustUnderstand="NONE" version="200508"
+					action="urn:listShipments" />
+			</con:response>
+			<con:dispatchConfig />
+		</con:mockOperation>
+	</con:mockService>
+	<con:properties />
+	<con:wssContainer />
+	<con:oAuth2ProfileContainer />
+	<con:oAuth1ProfileContainer />
+	<con:sensitiveInformation />
+</con:soapui-project>
